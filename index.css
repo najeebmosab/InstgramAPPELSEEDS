@@ -107,3 +107,9 @@ background-color: pink;
 .container .Posts .Cards .Liked  h6{
     padding: 0px 10px;
 }
+
+.container .Posts .Cards .viewComment{
+    padding: 0px 10px;
+    width: 300px;
+}
+
