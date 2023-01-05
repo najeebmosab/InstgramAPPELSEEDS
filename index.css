@@ -1,0 +1,36 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    /* background-color: antiquewhite; */
+}
+
+.container .sidbarOne{
+    background-color: red;
+    height: 100vh;
+}
+
+
+.container .sidbarTwo{
+    background-color: green;
+    
+    height: 100vh;
+}
+
+.container .Story{
+background-color: pink;
+
+    height: 100vh;
+}
+
+.container .Posts{
+    background-color: aqua;
+    
+    height: 100vh;
+}
