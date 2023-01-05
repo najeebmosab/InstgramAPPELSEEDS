@@ -7,8 +7,6 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    height: 100vh;
-    /* background-color: antiquewhite; */
 }
 
 .container .sidbarOne{
@@ -26,11 +24,86 @@
 .container .Story{
 background-color: pink;
 
-    height: 100vh;
+    height: 100px;
 }
 
 .container .Posts{
-    background-color: aqua;
-    
+    background-color: #fafafa;
     height: 100vh;
+    /* width: 200%; */
+}
+
+.container .Posts .Cards{
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container .Posts .Cards .head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.container .Posts .Cards .head .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .Posts .Cards .head .logo img{
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.container .Posts .Cards .head .logo div p{
+    font-size: 10px;
+}
+
+.iconContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconContainer div i{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.iconContainer div i:hover{
+    opacity: 0.4;
+}
+
+.iconContainer div i:last-child{
+    background-color: transparent;
+}
+.container .Posts .Cards .Liked{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.container .Posts .Cards .Liked img{
+    object-fit: cover;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    
+}
+
+.container .Posts .Cards .Liked  h6 a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.container .Posts .Cards .Liked  h6 a:hover{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.container .Posts .Cards .Liked  h6{
+    padding: 0px 10px;
 }
